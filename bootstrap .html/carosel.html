@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+            <title>Carousel</title>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid">
+                              <a class="navbar-brand" href="#">Home</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Contect</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" >
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://wallpapercave.com/wp/wp7421222.jpg" class="d-block w-100 rounded" alt="none">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://www.geekboots.com/_next/image?url=https%3A%2F%2Fcdn.geekboots.com%2Fgeek%2Fcss-3-facts-hero-1686483424274.webp&w=2048&q=75" class="d-block w-100 rounded " alt="none">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/191412/image-1582297511813-b188785eb990868e1e672230e8bbe740.png" class="d-block w-100 rounded " alt="none">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-4">
+                                <div class="card" style="width:  400px;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">HTML</h5>
+                                      <p class="card-text mt-3">HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.</p>
+                                      <a href="#" class="card-link btn btn-primary">More!</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card" style="width:  400px;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">CSS</h5>
+                                      <p class="card-text mt-3">In short, CSS is a design language that makes a website look more appealing than just plain or uninspiring pieces of text.</p>
+                                      <a href="#" class="card-link btn btn-primary">More!</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card" style="width: 360px;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">ReactJS</h5>
+                                      <p class="card-text mt-3">The React. js framework is an open-source JavaScript framework and library developed by Facebook.</p>
+                                      <a href="#" class="card-link btn btn-primary">More!</a>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    
+        </body>
+    </html>
