@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+        
+
+
+        
+        div:first-child {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        
+        div:nth-child(even) {
+            background-color: red;
+            padding: 10px;
+        }
+
+       
+        div:nth-child(odd) {
+            background-color: blue;
+            padding: 10px;
+        }
+
+       
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: lightcoral;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Main Content</h2>
+        <div>First div (first-child)</div>
+        <div>Second div (even)</div>
+        <div>Third div (odd)</div>
+        <div>Fourth div (even)</div>
+        <div>Fifth div (odd)</div>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
